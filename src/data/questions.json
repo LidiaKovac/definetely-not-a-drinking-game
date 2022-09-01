@@ -1,0 +1,346 @@
+[
+    {
+        "question_eng": "Who will get into a fight with an elderly person and lose?",
+        "question_ita": "Chi perderebbe in una rissa con un* vecchi*?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who is most likely to wake up next to someone opposite their normal gender preference and not remember a thing?",
+        "question_ita": "Chi è più probabile che si svegli vicino a qualcuno con cui solitamente non sarebbe andato a letto senza ricordare cosa sia successo?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who will find out they have a long lost sibling later in life?",
+        "question_ita": "Chi potrebbe scoprire di avere un fratello o sorella segreto?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who has “going home” as a regular part of their morning routine?",
+        "question_ita": "Chi ha “rientrare a casa” nella propria routine del mattino?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who will marry someone they met on Tinder?",
+        "question_ita": "Chi sposerebbe qualcuno conosciuto su Tinder?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who has responded to a sexual inquiry on Craigslist?",
+        "question_ita": "Chi ha risposto ad un annuncio sessuale su Bakeka?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who will take a step on the moon?",
+        "question_ita": "Chi camminerà sulla luna?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who will end up practicing a religion they didn’t grow up believing in?",
+        "question_ita": "Chi finirà a pratica una religione in cui non è stat* cresciut*?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who will win the lottery but lose the ticket?",
+        "question_ita": "Chi vincerà alla lotteria ma perderà il biglietto?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who will be the hardest to recognize in 10 years?",
+        "question_ita": "Chi sarà il più difficile da conoscere tra dieci anni?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who has fallen for a Nigerian Prince scam?",
+        "question_ita": "Chi è cascato nello scam del 'Principe Nigeriano'?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who will be the first to become a millionaire?",
+        "question_ita": "Chi sarà il primo a diventare millionario?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who would you most like to be stuck on an island with?",
+        "question_ita": "Con chi preferiresti essere bloccato su un isola deserta?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who would have the hardest time talking their way out of an insane asylum?",
+        "question_ita": "Chi farebbe più fatica a convincere lo staff di un ospedale psichiatrico a lasciarlo andare?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who would buy their partner's wedding ring on Craigslist?",
+        "question_ita": "Chi comprerebbe l'anello di fidanzamento usato?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Whose partner will have an affair with someone of the opposite sexual orientation?",
+        "question_ita": "Il partner di chi avrà una storia clandestina con qualcuno al di fuori del suo orientamento sessuale?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who will have the police involved in their death?",
+        "question_ita": "Chi avrà la polizia coinvolta nella sua morte?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who lost their virginity at the youngest age?",
+        "question_ita": "Chi ha perso la verginità da più giovane?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who is the next person to get married?",
+        "question_ita": "Chi sarà il prossimo a sposarsi?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who will get convicted of a crime they didn’t commit?",
+        "question_ita": "Chi verà ingiustamente incarcerato?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who will sell weed to high school kids well into their thirties?",
+        "question_ita": "Chi spaccierà ai liceali quando avrà trent'anni?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who will become really spiritual after a trip to Asia where they stayed at a 5-Star hotel the whole time?",
+        "question_ita": "Chi diventerà super spirituale dopo essere stato in Asia in un hotel a 5 stelle?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who would disown their homosexual child?",
+        "question_ita": "Chi diserederà il proprio figlio omosessuale?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who would disown their homosexual child?",
+        "question_ita": "Chi diserederà il proprio figlio omosessuale?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who will show up to their high school reunion in a Lamborghini rental?",
+        "question_ita": "Chi si presenterà al raduno per i dieci anni dalla maturità con una Lamborghini in affitto?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who will get convicted of a crime they didn’t commit?",
+        "question_ita": "Chi verrà accusato di un crimine non commesso?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who will yell at you for not sorting your recycling?",
+        "question_ita": "Chi ti potrebbe sgridare per non aver fatto la differenziata?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who was the oldest when they got potty trained?",
+        "question_ita": "Chi ha imparato a farla nel vasino più tardi di tutti?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who is the passenger who won’t stop talking to you on an airplane?",
+        "question_ita": "Chi è il passeggero che non smette di parlarti sull'aereo?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who has spent the most time grooming their pubic hair?",
+        "question_ita": "Chi ha passato più tempo a prendersi cura dei peli pubici?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who has given a name to something they currently sleep with?",
+        "question_ita": "Chi ha dato un nome ad un oggetto che si porta a letto?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who still has a curfew when they stay at their parents place?",
+        "question_ita": "Chi ha ancora il corpifuoco quando torna a casa dei suoi?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Whose parents know the least about their current lifestyle?",
+        "question_ita": "I genitori di chi conoscono meno della vita dei figli?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who has a Costco size pack of expired condoms?",
+        "question_ita": "Chi ha un pacco di preservativi della Sogegross scaduti?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who has hired a professional to make their dating profile?",
+        "question_ita": "Chi si è fatto fare il profilo Tinder da un freelancer?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who has most recently wet their pants?",
+        "question_ita": "Chi se l'è fatta addosso più di recente?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who secretly hates their significant other?",
+        "question_ita": "Chi odia segretamente il proprio partner?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who has let the most comments on porn videos?",
+        "question_ita": "Chi ha lasciato più commenti su video porno?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who has been bungee jumping but chickened out?",
+        "question_ita": "Chi è andato a fare bungee jumping ma poi si è spaventato e ha rinunciato?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who has had the longest dry spell (post virginity)?",
+        "question_ita": "Chi è stato più tempo senza scopare (dopo aver perso la verginità)?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who has hooked up with someone less than half their age plus seven?",
+        "question_ita": "Chi ha scopato con qualcuno che avesse meno della loro età più 7?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who would lose an election because of something they did in high school?",
+        "question_ita": "Chi perderebbe le elezioni per qualcosa che ha fatto al liceo?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who clogs the toilet at their friends house and says nothing?",
+        "question_ita": "Chi instaserebbe il wc di un amico e non dice nulla?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Whose Google search history would you like to see the most?",
+        "question_ita": "Di chi saresti più curioso di vedere la cronologia?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who would win a hotdog eating contest?",
+        "question_ita": "Chi vincerebbe una gara a chi mangia più hotdog?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who is the least trustworthy with a secret?",
+        "question_ita": "A chi non ti affideresti mai per i tuoi segreti?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who will always be there for you, no matter what.",
+        "question_ita": "Chi sarà sempre li per te, non importa cosa succede?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who is obvioulsy an only child?",
+        "question_ita": "Chi è chiaramente figlio unico?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who would you want to bring home with you for family dinner?",
+        "question_ita": "Chi porteresti a casa per la cena di famiglia?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who seems like they were homeschooled?",
+        "question_ita": "Chi sembra abbia fatto scuola in casa?",
+        "isSpicy": false
+    },
+    {
+        "question_eng": "Who isn’t wearing underwear right now? Prove it.",
+        "question_ita": "Chi non indossa l'intimo in questo momento? Provalo.",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who can you find naked on the internet?",
+        "question_ita": "Chi potresti trovare nudo su internet?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who will marry someone who isn’t born yet?",
+        "question_ita": "Chi sposerà qualcuno che deve ancora nascere?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who's lying about how many people they've slept with?",
+        "question_ita": "Chi mente sul numero di persone con cui sono andati a letto?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who has a name that sounds like the one of a porn star?",
+        "question_ita": "Chi ha un nome che sembra quello di una porno star?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who would be best looking as the opposite sex?",
+        "question_ita": "Chi sarebbe più fregn* se fosse del sesso opposto?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who's secretly in love with someone who's here?",
+        "question_ita": "Chi è segretamente innamorato di qualcuno in questa stanza?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who would do the best amateur porn with the two people sitting next to them?",
+        "question_ita": "Chi farebbe il porno amatoriale migliore con le persone sedute accanto a l*i?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Who has had multiple partners at once?",
+        "question_ita": "Chi ha avuto più di un partner alla volta?",
+        "isSpicy": true,
+        "isUnforseen": false
+    },
+    {
+        "question_eng": "Change the order!",
+        "question_ita": "Cambio giro!",
+        "isSpicy": false,
+        "isUnforseen": true
+    },
+    {
+        "question_eng": "Change the order!",
+        "question_ita": "Cambio giro!",
+        "isSpicy": false,
+        "isUnforseen": true
+    },
+    {
+        "question_eng": "Change the order!",
+        "question_ita": "Cambio giro!",
+        "isSpicy": false,
+        "isUnforseen": true
+    },
+    {
+        "question_eng": "Change the order!",
+        "question_ita": "Cambio giro!",
+        "isSpicy": false,
+        "isUnforseen": true
+    },
+    {
+        "question_eng": "Let's temporarily change the rule!",
+        "question_ita": "Cambio giro!",
+        "isSpicy": false,
+        "isUnforseen": true
+    }
+]
