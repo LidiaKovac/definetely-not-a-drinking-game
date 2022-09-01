@@ -38,10 +38,10 @@ function App() {
     setSpicy(false)
   }
   const handleLang = (event) => {
-    console.log(event)
+    
     if (event.target.checked) {
-      setLang("ita")
-    } else setLang("eng")
+      setLang("eng")
+    } else setLang("ita")
   }
   const getRandom = () => {
     let randomNumber = Math.floor(Math.random() * (cards.length - 1))
