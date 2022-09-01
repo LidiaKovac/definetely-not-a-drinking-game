@@ -93,7 +93,7 @@ function App() {
 
               <Form.Check
                 type="switch"
-                value={lang}
+                value={lang === "ita" ? false : true}
                 onChange={handleLang}
                 id="custom-switch"
                 label={
