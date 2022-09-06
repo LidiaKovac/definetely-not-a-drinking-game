@@ -6,6 +6,7 @@ import { Card } from "./components/Card/Card"
 import jsonCards from "./data/questions.json"
 import { useEffect, useState } from "react"
 import { Toggle } from "./components/Toggle/Toggle"
+import { NewVersion } from "./components/New/NewVersion"
 
 function App() {
   let browserOptions = JSON.parse(localStorage.getItem("options"))
@@ -133,10 +134,12 @@ function App() {
             card_data={cards[number]}
             lang={options.lang}
             drinks={options.drinks}
-          />{" "}
+          />
         </>
       )}
+      <NewVersion/>
     </div>
+    
   )
 }
 

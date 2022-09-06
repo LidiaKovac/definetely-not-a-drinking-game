@@ -14,7 +14,7 @@ export const Toggle = ({ name, label, change }) => {
     }, [])
     const handleChange = () => {
         setValue(prev => !prev)
-        change(value)
+        change()
     }
     return (
     <>
