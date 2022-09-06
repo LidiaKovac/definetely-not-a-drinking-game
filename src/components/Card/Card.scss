@@ -1,56 +1,54 @@
-
 .card__container {
-    position: relative;
-    
-    background-color: black;
-    color: white;
+  position: relative;
 
-    width: 80%;
-    max-width: 300px;
-    min-width: 280px;
-    height: calc(80% / 1.5);
-    min-height: 400px; 
+  background-color: black;
+  color: white;
 
-    border-radius: 30px;
+  width: 80%;
+  max-width: 300px;
+  min-width: 280px;
+  height: calc(80% / 1.5);
+  min-height: 400px;
 
-    padding: {
-        left: 40px;
-        top: 40px;
-        right: 40px;
-        bottom: 20px;
-    }
+  border-radius: 30px;
 
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    .card__text {
-      max-height: 300px;  
-      line-height: 100%;
-    }
+  padding: {
+    left: 40px;
+    top: 40px;
+    right: 40px;
+    bottom: 20px;
+  }
+
+  margin: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .card__text {
+    max-height: 300px;
+    line-height: 100%;
+  }
 }
 
 .drinks {
-    
-    text-align: right;
-    color: white;
-    font-size: 15pt!important;
+  text-align: right;
+  color: white;
+  font-size: 15pt !important;
 }
-
 
 .font--xl {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .font--md {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 .font--sm {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .badge__wrap {
-    font-size: .8rem;
-    height: 20px;
-    color: black;
+  font-size: 0.8rem;
+  height: 20px;
+  color: black;
 }

@@ -3,26 +3,25 @@ import Form from "react-bootstrap/Form"
 import { useEffect, useState } from "react"
 
 export const Toggle = ({ name, label, change }) => {
-    let browserOptions = JSON.parse(localStorage.getItem("options"))
-    const [value, setValue] = useState(false)
+  let browserOptions = JSON.parse(localStorage.getItem("options"))
+  const [value, setValue] = useState(false)
 
-    useEffect(()=> {
-      if(browserOptions[name]) {
-        
-        setValue(browserOptions[name])
-      }
-    }, [])
-    const handleChange = () => {
-        setValue(prev => !prev)
-        change()
+  useEffect(() => {
+    if (browserOptions[name]) {
+      setValue(browserOptions[name])
     }
-    return (
+  }, [])
+  const handleChange = () => {
+    setValue((prev) => !prev)
+    change()
+  }
+  return (
     <>
       <Form.Check
         type="switch"
         id={name}
         checked={value}
-        onChange={()=> handleChange()}
+        onChange={() => handleChange()}
         label={label}
       />
     </>
