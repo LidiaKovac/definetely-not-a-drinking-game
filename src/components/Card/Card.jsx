@@ -2,10 +2,9 @@ import "./Card.scss"
 import Badge from "react-bootstrap/Badge"
 export const Card = ({ card_data, lang, drinks }) => {
   const getSize = () => {
-    console.log(card_data["question_" + lang].length)
-    if (card_data["question_" + lang].length < 30) {
+    if (card_data["question_" + (lang ? "ita" : "eng")].length < 30) {
       return "font--xl"
-    } else if (card_data["question_" + lang].length < 80) {
+    } else if (card_data["question_" + (lang ? "ita" : "eng")].length < 80) {
       return "font--md"
     } else {
       return "font--sm"
@@ -14,7 +13,7 @@ export const Card = ({ card_data, lang, drinks }) => {
   return (
     <div className="card__container">
       <div className={"card__text " + getSize()}>
-      {card_data["question_" + lang]}
+      {card_data["question_" + (lang ? "ita" : "eng")]}
       </div>
       <div className="card__footer">
 

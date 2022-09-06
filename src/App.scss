@@ -4,16 +4,26 @@
 input[type='checkbox']:checked {
   background-color: #0dcaf0;
 }
+.header__buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
 
+  button:first-of-type {
+    flex: 4 0 0;
+  }
+  button:last-of-type {
+    flex: 1 0 0;
+  }
+}
 .buttons__layout {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 300px;
-  button {
-    width: 70%;
-  }
+ width: 300px;
+  
 }
 
 .lang__label {

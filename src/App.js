@@ -5,22 +5,33 @@ import Button from "react-bootstrap/Button"
 import { Card } from "./components/Card/Card"
 import jsonCards from "./data/questions.json"
 import { useEffect, useState } from "react"
-import Form from "react-bootstrap/Form"
+import { Toggle } from "./components/Toggle/Toggle"
 
 function App() {
+  let browserOptions = JSON.parse(localStorage.getItem("options"))
+  let browserDrawn = JSON.parse(localStorage.getItem("alreadyDrawn"))
+
+
   const [cards, setCards] = useState(jsonCards)
   const [number, setNumber] = useState(
     Math.floor(Math.random() * (cards.length - 1))
   )
-  const [alreadyDrawn, setDrawn] = useState([])
+  const [alreadyDrawn, setDrawn] = useState(browserDrawn || []
+  )
   const [cardsLeft, setCardsLeft] = useState(cards.length)
 
   //options
-  const [lang, setLang] = useState("ita")
-  const [spicy, setSpicy] = useState(false)
-  const [drinks, setDrinks] = useState(false)
+  const [options, setOptions] = useState(browserOptions || {
+      lang: false,
+      spicy: false,
+      drinks: false,
+    }
+  )
   useEffect(() => {
-    if (spicy) {
+    localStorage.setItem("alreadyDrawn", JSON.stringify(alreadyDrawn))
+  }, [alreadyDrawn])
+  useEffect(() => {
+    if (options.spicy) {
       setCards(jsonCards)
     } else {
       let newCards = cards.filter(
@@ -30,26 +41,29 @@ function App() {
       setNumber(Math.floor(Math.random() * (newCards.length - 1)))
       setCards(newCards)
     }
-  }, [spicy])
+  }, [options.spicy])
+  useEffect(() => {
+    console.log("updating options", options);
+    localStorage.setItem("options", JSON.stringify(options))
+  }, [options])
   const reset = () => {
+    localStorage.clear()
     setDrawn([])
     setCardsLeft(cards.length)
-    setDrinks(false)
-    setSpicy(false)
+    setOptions({
+      ...options,
+      spicy: false,
+      drinks: false,
+    })
+    window.location.reload()
   }
-  const handleLang = (event) => {
-    
-    if (event.target.checked) {
-      setLang("eng")
-    } else setLang("ita")
-  }
+
   const getRandom = () => {
     let randomNumber = Math.floor(Math.random() * (cards.length - 1))
     let repeats = 0
     while (alreadyDrawn.includes(randomNumber)) {
       repeats++
       randomNumber = Math.floor(Math.random() * (cards.length - 1))
-
       if (repeats > 100) {
         setCardsLeft(0)
         break
@@ -66,51 +80,60 @@ function App() {
   return (
     <div className="container">
       {cardsLeft === 0 ? (
-        <>
-          finito!{" "}
-          <Button variant="info" onClick={() => reset()}>
-            Reset
-          </Button>{" "}
-        </>
+        <>finito!</>
       ) : (
         <>
           <div className="buttons__layout">
             <div className="toggles">
-              <Form.Check
-                type="switch"
-                id="custom-switch"
-                value={spicy}
-                onChange={() => setSpicy((prev) => !prev)}
+              <Toggle
+                name="spicy"
                 label="🌶️"
+                change={() =>
+                  setOptions((prev) => {
+                    return { ...prev, spicy: Boolean(!prev.spicy) }
+                  })
+                }
               />
-              <Form.Check
-                type="switch"
-                value={drinks}
-                onChange={() => setDrinks((prev) => !prev)}
-                id="custom-switch"
+              <Toggle
+                name="drinks"
+                value={options.drinks}
                 label="🥤"
+                change={() =>
+                  setOptions((prev) => {
+                    return { ...prev, drinks: Boolean(!prev.drinks) }
+                  })
+                }
               />
-
-              <Form.Check
-                type="switch"
-                value={lang === "ita" ? false : true}
-                onChange={handleLang}
-                id="custom-switch"
+              <Toggle
+                name="lang"
+                value={options.lang}
                 label={
-                  lang === "ita" ? (
-                    <img className="lang__label" src="/ita.png" />
-                  ) : (
-                    <img className="lang__label" src="/eng.png" />
-                  )
+                  <img
+                    className="lang__label"
+                    src={"/" + (options.lang ? "ita" : "eng") + ".png"}
+                  />
+                }
+                change={() =>
+                  setOptions((prev) => {
+                    return { ...prev, lang: !prev.lang }
+                  })
                 }
               />
             </div>
-
-            <Button variant="info" onClick={() => getRandom()}>
-              Pesca! 🎣
-            </Button>
+            <div className="header__buttons">
+              <Button variant="info" onClick={() => getRandom()}>
+                Pesca! 🎣
+              </Button>
+              <Button variant="info" onClick={() => reset()}>
+              🔁
+              </Button>
+            </div>
           </div>
-          <Card card_data={cards[number]} lang={lang} drinks={drinks} />{" "}
+          <Card
+            card_data={cards[number]}
+            lang={options.lang}
+            drinks={options.drinks}
+          />{" "}
         </>
       )}
     </div>
