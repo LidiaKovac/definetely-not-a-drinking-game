@@ -18,6 +18,7 @@ export const NewVersion = () => {
               <li>Eliminato le domande di merda, <i>forse.</i></li>
               <li>Aggiunto localStorage per una UX a prova di Vee ubriaca.</li>
               <li>Ho aggiustato i toggle, ora funzionano anche se avete il parkinson come Fabri.</li>
+              <li>Per la gioia di Mauro, ora potete cambiare domanda anche cliccando sulla domanda</li>
             </ul>
           </Accordion.Body>
         </Accordion.Item>
