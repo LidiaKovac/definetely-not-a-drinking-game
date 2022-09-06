@@ -1,8 +1,19 @@
 .accordion__wrap {
-    min-width: 300px;
-    width: 80%;
-    text-align: center;
-    .accordion-body {
+  min-width: 300px;
+  width: 80%;
+  text-align: center;
+  .accordion-body {
     text-align: left;
+
+    li {
+      // list-style: ;
+      list-style-type: "🍆 ";
     }
+  }
+  .accordion-ringraziamenti {
+    li {
+        // list-style: ;
+        list-style-type: "🖕 ";
+      }
+  }
 }
