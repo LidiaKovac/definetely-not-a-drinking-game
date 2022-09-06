@@ -1,4 +1,3 @@
-import logo from "./logo.svg"
 import "./App.scss"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Button from "react-bootstrap/Button"
@@ -131,6 +130,7 @@ function App() {
             </div>
           </div>
           <Card
+            click={() => getRandom()}
             card_data={cards[number]}
             lang={options.lang}
             drinks={options.drinks}
