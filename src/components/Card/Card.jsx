@@ -17,7 +17,7 @@ export const Card = ({ card_data, lang, drinks, click }) => {
       </div>
       <div className="card__footer">
         <div className="drinks">
-          {drinks && !card_data.isUnforseen && card_data.drinks + "x 🥤"}
+          {drinks && Math.floor(Math.random() * 3) + 1 + "x 🥤"}
         </div>
         <Badge className="badge__wrap" pill bg="info">
           The <i> Definetely Not Fake </i> Voting Game

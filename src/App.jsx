@@ -17,16 +17,20 @@ function App() {
   const [number, setNumber] = useState(Math.floor(Math.random() * (cards.length - 1)));
   const [alreadyDrawn, setDrawn] = useState(browserDrawn || []);
   const [cardsLeft, setCardsLeft] = useState(cards.length);
-  const [options, setOptions] = useState(
-    browserOptions || {
-      lang: false,
-      spicy: false,
-      drinks: false,
-    }
-  );
+  const [options, setOptions] = useState({
+    lang: false,
+    spicy: false,
+    drinks: false,
+  });
 
   // onUpdate and onMount
-
+  useEffect(() => {
+    if (JSON.parse(localStorage.getItem("options")) === null) {
+      localStorage.setItem("options", JSON.stringify(options));
+    } else {
+      setOptions(JSON.parse(localStorage.getItem("options")));
+    }
+  }, []);
   //When a card is drawn, set it in ls
   useEffect(() => {
     localStorage.setItem("alreadyDrawn", JSON.stringify(alreadyDrawn));
@@ -48,7 +52,6 @@ function App() {
       setCards(newCards);
     }
   }, [options.spicy]);
-
 
   // Utils
 
