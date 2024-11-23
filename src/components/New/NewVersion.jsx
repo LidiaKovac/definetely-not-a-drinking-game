@@ -16,7 +16,6 @@ export const NewVersion = () => {
           <Accordion.Header>Versione 0.3</Accordion.Header>
           <Accordion.Body>
             <ul>
-              
               <li>
                 Siccome domani <i>forse</i> ci devo giocare, ho randomizzato il numero di drink.{" "}
                 <br />A Udine non si beve mica come a Genova, pd.
@@ -30,8 +29,7 @@ export const NewVersion = () => {
                 Meno male che non vi pago per fare i test.
               </li>
               <li>
-                Se volete fare i developer seri (si Jack sto guardando proprio te, scarso maledetto
-                imparati React invece che usare PHP come i 60enni),{" "}
+                Se volete fare i developer seri (si Jack sto guardando proprio te),{" "}
                 <a href="https://github.com/LidiaKovac/definetely-not-a-drinking-game">
                   {" "}
                   fatemi le PR su GH.
@@ -39,9 +37,10 @@ export const NewVersion = () => {
                 Non vi prometto che le accettero', ma vi prometto che forse le guardo.
               </li>
               <li>
-                Se invece fate un lavoro da persone sane mentalmente o fate il sistemista <small>(sistemista infame per te solo le lame) </small> ,{" "}
-                
-                Ogni tanto mandatemi qualche domanda da aggiungere. <br /> No. Non lo faccio il backend, lo so che lo volete solo per potermi fare le injection. <br /> Bastardi.
+                Se invece fate un lavoro da persone sane mentalmente o fate il sistemista{" "}
+                <small>(sistemista infame per te solo le lame) </small> , Ogni tanto mandatemi
+                qualche domanda da aggiungere. <br /> No. Non lo faccio il backend, lo so che lo
+                volete solo per potermi fare le injection. <br /> Bastardi.
               </li>
             </ul>
           </Accordion.Body>
